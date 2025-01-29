@@ -1,0 +1,21 @@
+Một mẹo lưu ý nếu như đề bắt nhập dữ liệu, điều này tốn rất nhiều thời gian và công sức
+1. Mở word -> chọn mục Open -> This PC -> chọn file PDF hoặc word của đề thi tại địa chỉ của bạn.
+2. Ấn OK -> Khi tạo bảng bằng câu lệnh CREATE TABLE, ta copy hết thuộc tính của bảng luôn,
+ sau đó enter từng thuộc tính là xong, lúc này chèn khóa chính hoặc khóa phụ và kiểu dữ
+ liệu--> Điều này sẽ giúp giảm thời gian rất nhiều và đỡ sai sót hơn là nhìn thẳng vào 
+bảng dữ liệu mà cho giới hạn kích thước. Ta có thể dùng chức năng draw của word để trỏ đến khóa.
+3. Phần nhập liệu, chắc hẳn bạn nhập tay hoặc dùng GPT hoặc Excel đúng không :>,
+tớ cũng đã dùng những cách này, nhưng khá mất thời gian, đi thi ai cho dùng AI, Excel câu lệnh
+phức tạp vãi(mặc dù mình nhớ nhưng nó lâu vì mình vẫn nhập code cho nó)
+--> dùng word
+bước 1: bôi đen bảng
+bước 2: vô mục Layout-> Convert to Text -> Tab -> OK
+bước 3: Ctrl + H -> mục Find what gõ: ^t -> mục Replace with gõ: ',' -> Replace all -> yes hết-> OK
+bước 4: vẫn giữ nguyên, thay thế ^t bằng ^p -> copy ^p bằng Ctrl + A -> xuống dưới thêm như sau  '),^p(' -> yes hết -> OK
+bước 5: Thành quả :>, lưu ý sẽ có những dữ liệu dài có thể có nhiều tab hoặc endline, nên ta cần kiểm tra trong SQL,
+nói chớ nhìn là biết sai ở đâu mà ;).
+
+Mục đích của cái này là để học tập trick thôi nhé, biết thì đừng share :>, thiệt chớ tôi ém lại thi rồi t mới up,
+mà kì thi vừa rồi cho sẵn dữ liệu luôn nên không hack thời gian được :)), nói chung chỉ là để học hỏi cách hay thôi.
+
+By me: VTĐ_HOPE
